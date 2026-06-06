@@ -1,102 +1,58 @@
-# FitTrack Pro 🏋️‍♂️
+# FitTrack Pro
 
-**FitTrack Pro** is an innovative and comprehensive fitness application designed to help you achieve your personal health and fitness goals. Whether you're aiming to lose weight, gain muscle, or maintain your current physique, FitTrack Pro offers personalized meal plans, workout routines, and progress tracking features tailored just for you.
+> AI-powered personal fitness coach built with Streamlit — personalized workout plans, meal recommendations, and progress tracking based on your body metrics and goals.
+
+[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![AI Powered](https://img.shields.io/badge/AI_Powered-Generative_AI-412991?style=flat-square&logo=openai&logoColor=white)](https://openai.com)
+
+---
 
 ## Overview
 
-FitTrack Pro is built for anyone looking to take control of their fitness journey. From beginners to seasoned athletes, this application provides customized recommendations based on your unique body metrics and fitness goals. By integrating cutting-edge AI and machine learning, FitTrack Pro delivers accurate, actionable insights that can help you reach your desired outcomes faster and more efficiently.
+FitTrack Pro is an AI fitness application that generates **personalized workout routines and meal plans** based on your unique body metrics, fitness goals, and dietary preferences — no personal trainer required.
+
+---
 
 ## Features
 
-- **Personalized Meal Plans**: Generate a 7-day meal plan based on your dietary preferences, calorie needs, and restrictions.
-- **Custom Workout Plans**: Receive a detailed weekly workout schedule tailored to your fitness goals and availability.
-- **BMI and BMR Calculations**: Instantly calculate your Body Mass Index (BMI) and Basal Metabolic Rate (BMR) to understand your body's needs.
-- **Progress Tracking**: Set and track your fitness goals with easy-to-understand metrics and visualizations.
-- **Light and Dark Modes**: Switch between light and dark themes to suit your environment and preferences.
+- **Personalized Workout Plans** — Custom routines based on fitness level, goals, and available equipment
+- **AI Meal Planning** — Nutritionally balanced meal plans matching your calorie targets
+- **Progress Tracking** — Visual charts for weight, reps, and performance over time
+- **Body Metrics Analysis** — BMI, BMR, TDEE calculations with actionable recommendations
+- **Goal Setting** — Weight loss, muscle gain, endurance — tailored to your timeline
 
-## Setup Instructions
+---
 
-### Prerequisites
+## Tech Stack
 
-- Python 3.8 or higher
-- Streamlit
-- FPDF
-- Google Generative AI (Gemini) API key
+| Layer | Technology |
+|-------|-----------|
+| Frontend | Streamlit |
+| AI Engine | Generative AI (OpenAI/Gemini) |
+| Data Viz | Plotly / Matplotlib |
+| Language | Python 3.9+ |
 
-### Installation
+---
 
-1. **Clone the repository:**
+## Quick Start
 
-    ```bash
-    git clone https://github.com/SauravSrivastav/fittrackpro-st.git
-    cd fittrackpro-st
-    ```
+```bash
+git clone https://github.com/SauravSrivastav/fittrackpro-st.git
+cd fittrackpro-st
+pip install -r requirements.txt
+streamlit run app.py
+```
 
-2. **Create and Activate a Virtual Environment:**
+---
 
-    - **For Windows:**
+## Built By
 
-      ```bash
-      python -m venv venv
-      venv\Scripts\activate
-      ```
+**Saurav Srivastav** — Cloud & DevSecOps Leader | Azure · MLOps · LLMOps | Dubai, UAE
 
-    - **For macOS/Linux:**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/sauravsrivastav2205/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0078D4?style=flat-square&logo=vercel)](https://saurav-srivastav-portfolio.vercel.app)
 
-      ```bash
-      python3 -m venv venv
-      source venv/bin/activate
-      ```
+---
 
-3. **Install the required Python packages:**
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. **Set up the Google Generative AI API key:**
-
-    - Obtain your API key from [Google AI Studio](https://aistudio.google.com/app/apikey).
-    - Create a `.env` file in the root directory of the project and add your API key:
-
-      ```env
-      GOOGLE_API_KEY=your_api_key_here
-      ```
-
-5. **Run the application locally:**
-
-    ```bash
-    streamlit run app.py
-    ```
-
-6. **Deactivate the Virtual Environment (When Done):**
-
-    ```bash
-    deactivate
-    ```
-
-### Usage
-
-1. Fill in your personal details like name, age, height, weight, and fitness goals in the sidebar.
-2. Generate your personalized meal and workout plans.
-3. Download your plans as a PDF or track your progress directly within the app.
-
-## Screenshots
-
-![Search Results](https://github.com/SauravSrivastav/fittrackpro-st/blob/main/data/1.png)
-* Your Personalized Meal Plan and Your Personalized Workout Plan.*
-
-![Download Options](https://github.com/SauravSrivastav/fittrackpro-st/blob/main/data/2.png)
-*Download Option for our Fitness Plan.*
-
-## Contributing
-
-Contributions are welcome! If you'd like to improve FitTrack Pro, please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any questions or suggestions, please feel free to reach out to me at [sauravsrivastav2205@gmail.com](mailto:sauravsrivastav2205@gmail.com).
+<sub>Streamlit · Python · AI · Generative AI · Fitness · Health · Machine Learning · Azure · LLM · Personal Trainer</sub>
